@@ -1,0 +1,90 @@
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  border-radius: 8px;
+}
+
+.main-div {
+  margin-left: 400px;
+}
+
+td.wrap-address {
+  white-space: pre-wrap; 
+  word-wrap: break-word; 
+  max-width: 300px;
+}
+
+.badge {
+  font-size: 14px;
+  padding: 6px 12px;
+  Border-radius: 12px;
+}
+
+.bg-success {
+  background-color: #28a745 !important;
+}
+
+.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.text-danger {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+}
+
+.color {
+  color: #8f6b55;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salon-btn {
+  background-color: #8f6b55;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.salon-btn:hover {
+  background-color: #7b5945;
+}
+
+.dw-style:hover {
+  cursor: pointer;
+}
+
+.list-group-item{
+  font-weight: 500;
+  border: 1px solid black;
+}
+
+.list-group-item:hover{
+  background-color: #7b5945;
+  color: white;
+}
+
+.dw-style {
+  z-index: 1000;
+  width: 200px;
+}

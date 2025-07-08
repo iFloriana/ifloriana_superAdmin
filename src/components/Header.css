@@ -1,0 +1,168 @@
+.main-content {
+  margin-left: 250px;
+  padding: 0;
+}
+
+.header-container {
+  background-color: #212529;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #444;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-input {
+  width: 250px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #8f6b55;
+}
+
+.salon-btn {
+  background-color: #8f6b55;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.salon-btn:hover {
+  background-color: #7b5945;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.notification-icon {
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #e0d5c1;
+  transition: transform 0.2s ease;
+}
+
+.notification-icon:hover {
+  transform: scale(1.1);
+}
+
+.profile-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-icon {
+  font-size: 2rem;
+  color: #e0d5c1;
+  transition: transform 0.2s ease;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: #343a40;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 9999;
+  width: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.profile-container.show .dropdown-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-item {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  color: aliceblue;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-item i {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.dropdown-item:hover {
+  background-color: #495057;
+}
+
+.dropdown-divider {
+  margin: 8px 0;
+  border-top: 1px solid #555;
+}
+
+.dropdown-menu button {
+  font-size: 14px;
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu button:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+
+  .search-input,
+  .salon-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,76 @@
+.sidebar {
+  background-color: #212529;
+  color: white;
+  height: 150vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 90px;
+}
+
+.sidebar.expanded {
+  width: 280px;
+}
+
+.sidebar-logo {
+  width: 150px;
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed .sidebar-logo {
+  width: 40px;
+  padding-bottom: 10px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.sidebar ul li a i {
+  margin-right: 10px;
+}
+
+.sidebar.collapsed ul li a span {
+  display: none;
+}

@@ -1,0 +1,108 @@
+.header-signup-form {
+  background-image: url(../public/banner-ifloriana.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-signup-form a img {
+  height: 90px;
+  margin-left: 50px;
+}
+
+.header-signup-form span {
+  margin-right: 50px;
+}
+
+.header-signup-form span a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.border-container {
+  border: 1px solid #8f6b55;
+}
+
+.ft-color {
+  color: #8f6b55;
+  font-weight: 700;
+}
+
+.form-container {
+  padding-top: 80px;
+}
+
+.input-field {
+  border: 1px solid #8f6b55;
+  border-radius: 5px;
+  padding: 10px;
+  transition: border-color 0.3s ease;
+  font-size: 14px;
+}
+
+.input-field:focus {
+  border-color: rgb(143, 107, 85);
+  box-shadow: 0 0 6px rgba(143, 107, 85, 0.5);
+}
+
+.select-package {
+  border: 1px solid #8f6b55;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: rgb(143, 107, 85);
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: #e8d5c4;
+  color: black;
+  transform: scale(1.05);
+}
+
+.innercard {
+  border: 1px solid #8f6b55;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.innercard:hover {
+  background-color: #e8d5c4;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: 38px !important;
+  padding: 6px 12px 6px 48px !important;
+  border-radius: 0.375rem;
+  border: 1px solid #8f6b55 !important;
+  font-size: 1rem;
+  color: #495057;
+  background-color: #fff;
+  box-shadow: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.react-tel-input .form-control:focus {
+  border-color: rgb(143, 107, 85) !important;
+  box-shadow: 0 0 6px rgba(143, 107, 85, 0.5) !important;
+}
+
+.react-tel-input {
+  width: 100%;
+}
