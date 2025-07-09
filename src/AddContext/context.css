@@ -1,0 +1,138 @@
+.sidebar-div {
+  position: fixed;
+  top: 0;
+  right: -800px;
+  width: 800px;
+  color: white;
+  transition: right 0.3s ease-in-out;
+  z-index: 999;
+  height: 100% !important;
+  overflow-y: auto !important;
+}
+
+.sidebar-div.show {
+  right: 0 !important;
+}
+
+.sidebar-div::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.sidebar-div::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.sidebar-div::-webkit-scrollbar-thumb {
+  background-color: #8f6b55 !important;
+  border-radius: 10px !important;
+  border: 2px solid transparent !important;
+}
+
+.sidebar-title {
+  color: #c5a89c;
+}
+
+.overlay-blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: right 0.3s ease-in-out;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 998;
+}
+
+.custom-check:checked,
+.custom-check[type="checkbox"]:checked {
+  background-color: #8f6b55;
+  border-color: #8f6b55;
+}
+
+.custom-radio:checked,
+.custom-radio[type="radio"]:checked {
+  background-color: #8f6b55;
+  border-color: #8f6b55;
+}
+
+::placeholder {
+  color: #8d8d8d !important;
+}
+
+.react-tel-input .form-control {
+  background-color: #212529 !important;
+  color: white !important;
+  border: 1px solid #f8f8f8 !important;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: #212529 !important;
+  border: 1px solid #ffffff !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .flag-dropdown.open {
+  background-color: #2a2a2a !important;
+}
+
+.react-tel-input .country-list {
+  background-color: #1e1e1e !important;
+  color: white !important;
+  border: 1px solid #ffffff !important;
+}
+
+.react-tel-input .country-list .country:hover {
+  background-color: #2a2a2a !important;
+}
+
+.react-tel-input .country-list .country.highlight {
+  background-color: #333 !important;
+  color: white !important;
+}
+
+.scrollable-y {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.scrollable-y::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollable-y::-webkit-scrollbar-thumb {
+  background-color: #8f6b55;
+  border-radius: 4px;
+}
+
+.scrollable-y::-webkit-scrollbar-track {
+  background-color: #1a1a1a;
+}
+
+.service-selection-block {
+  position: relative;
+}
+
+.service-selection-header {
+  position: absolute;
+  top: -15px;
+  left: 10px;
+  background-color: #212529;
+  padding: 0 5px;
+  z-index: 1;
+}
+
+.service-label {
+  color: #fff;
+}
+
+.custom-circle {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.text-bg-purple {
+  background-color: #6f42c1;
+  color: #6f42c1;
+}

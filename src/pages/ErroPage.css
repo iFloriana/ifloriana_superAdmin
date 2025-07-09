@@ -1,0 +1,31 @@
+.custom-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-custom {
+  border: none;
+  color: white;
+  background-color: #8f6b55;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h3 {
+  font-size: 3rem;
+  color: #8f6b55;
+}
+
+.btn-custom:hover {
+  background-color: #7f5b45;
+  transform: scale(1.05);
+}
